@@ -26,7 +26,7 @@ AutoPent AI combines multiple open-source security tools into one platform, then
 
 ## ✨ Key Features
 
-- 🔍 **Automated Web Vulnerability Scanning** using OWASP ZAP / Burp Suite
+- 🔍 **Automated Web Vulnerability Scanning** using / Burp Suite
 - 🌐 **Network Port Analysis** using Nmap
 - 🖥️ **Infrastructure Vulnerability Management** using OpenVAS
 - 🤖 **AI-Driven Remediation Module** — generates real code fixes, not just warnings
@@ -44,7 +44,7 @@ AutoPent AI combines multiple open-source security tools into one platform, then
 The system follows a layered architecture:
 - **Presentation Layer:** React.js Frontend Dashboard
 - **Application Logic Layer:** Backend Controller (API Gateway, Auth Manager, Scan Orchestrator)
-- **Integration & Execution Layer:** Scanning Engines (Nmap, OWASP ZAP, OpenVAS) + AI Remediation Module
+- **Integration & Execution Layer:** Scanning Engines (Nmap, Burp Suite, OpenVAS) + AI Remediation Module
 - **Data Layer:** MySQL Database + PDF Report Storage
 
 ---
@@ -79,7 +79,7 @@ Every vulnerability comes with a **clear remediation/solution section**, making 
 |---|---|
 | Frontend | React.js |
 | Backend | PHP, Python |
-| Scanning Engines | Nmap, OWASP ZAP, Burp Suite, OpenVAS |
+| Scanning Engines | Nmap, Burp Suite, OpenVAS |
 | AI Module | LLM-based Remediation Engine |
 | Database | MySQL |
 | Reports | PDF Generation |
